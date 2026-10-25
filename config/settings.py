@@ -48,7 +48,7 @@ ALLOWED_HOSTS = [
     host.strip()
     for host in os.environ.get(
         "ALLOWED_HOSTS",
-        "localhost,127.0.0.1,backend-4-bu7i.onrender.com"
+        "localhost,127.0.0.1,backend-eco.onrender.com"
     ).split(",")
     if host.strip()
 ]
